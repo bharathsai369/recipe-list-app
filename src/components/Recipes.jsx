@@ -10,9 +10,9 @@ export default function Recipes() {
     setRecipeList(data.recipes);
   }
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
   return (
     <div>
       {recipeList.map((recipe, i) => (
